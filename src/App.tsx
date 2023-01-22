@@ -1,4 +1,7 @@
 import Logo from "../src/assets/logo.svg"
+import Couch from "../src/assets/couch.png"
+import AppPhone from "../src/assets/app.svg"
+
 function App() {
 
   const navBtn: any = document.querySelector('#menu')
@@ -39,7 +42,7 @@ function App() {
         hover:opacity-75
         transition-opacity
       " aria-label="Go to homepage">
-              <img src="../src/assets/logo.svg" width="200" className="w-48 md:w-64 lg:w-72" alt="Home Smart Logo" />
+              <img src={Logo} width="200" className="w-48 md:w-64 lg:w-72" alt="Home Smart Logo" />
             </a>
             <button id="menu" className="
         lg:hidden
@@ -157,8 +160,8 @@ function App() {
           <div className="absolute inset-0 bottom-8 md:bottom-24 xl:bottom-32 -z-10 bg-gradient-to-b from-amber-400 to-amber-600"></div>
 
           <div className="container mx-auto grid grid-rows-1 place-items-end px-2">
-            <img src="./src/assets/couch.png" className=" row-start-1 row-end-2 col-start-1 col-end-2 mx-auto" alt="Couch" />
-            <img src="../src/assets/app.svg" className="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto w-40 sm:w-52 md:w-64 lg:w-72" alt="app" />
+            <img src={Couch} className=" row-start-1 row-end-2 col-start-1 col-end-2 mx-auto" alt="Couch" />
+            <img src={AppPhone} className="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto w-40 sm:w-52 md:w-64 lg:w-72" alt="app" />
           </div>
         </header>
 
