@@ -1,6 +1,16 @@
 import Logo from "../src/assets/logo.svg"
 import Couch from "../src/assets/couch.png"
 import AppPhone from "../src/assets/app.svg"
+import Dots from "../src/assets/dots.svg"
+import Partner1 from "../src/assets/partner1.svg"
+import Partner2 from "../src/assets/partner2.svg"
+import Partner3 from "../src/assets/partner1.svg"
+import Partner4 from "../src/assets/partner4.svg"
+import Partner5 from "../src/assets/partner5.svg"
+import Partner6 from "../src/assets/partner6.svg"
+import Partner7 from "../src/assets/partner7.svg"
+import Table from "../src/assets/table.png"
+import Lamp from "../src/assets/lamp.png"
 
 function App() {
 
@@ -205,7 +215,7 @@ function App() {
             <span>Download the App</span>
           </a>
           <section aria-labelledby="qualities" className="relative">
-            <img src="../src/assets/dots.svg"
+            <img src={Dots}
               className="
       hidden
       lg:block
@@ -216,7 +226,7 @@ function App() {
       xl:-left-7
       "
               alt="dots" aria-hidden="true" />
-            <img src="../src/assets/dots.svg"
+            <img src={Dots}
               className="
       hidden
       lg:block
@@ -324,25 +334,25 @@ function App() {
             </div>
             <div className="flex flex-wrap justify-center gap-8 md:gap-x-16 max-w-2xl mx-auto">
               <div className="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
-                <img src="../src/assets/partner1.svg" alt="Partner" className="h-16 w-16" />
+                <img src={Partner1} alt="Partner" className="h-16 w-16" />
               </div>
               <div className="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
-                <img src="../src/assets/partner2.svg" alt="Partner" className="h-16 w-16" />
+                <img src={Partner2} alt="Partner" className="h-16 w-16" />
               </div>
               <div className="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
-                <img src="../src/assets/partner3.svg" alt="Partner" className="h-16 w-16" />
+                <img src={Partner3} alt="Partner" className="h-16 w-16" />
               </div>
               <div className="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
-                <img src="../src/assets/partner4.svg" alt="Partner" className="h-16 w-16" />
+                <img src={Partner4} alt="Partner" className="h-16 w-16" />
               </div>
               <div className="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
-                <img src="../src/assets/partner5.svg" alt="Partner" className="h-16 w-16" />
+                <img src={Partner5} alt="Partner" className="h-16 w-16" />
               </div>
               <div className="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
-                <img src="../src/assets/partner6.svg" alt="Partner" className="h-16 w-16" />
+                <img src={Partner6} alt="Partner" className="h-16 w-16" />
               </div>
               <div className="p-4 bg-white dark:bg-neutral-600 shadow-md dark:shadow-xl rounded-md">
-                <img src="../src/assets/partner7.svg" alt="Partner" className="h-16 w-16" />
+                <img src={Partner7} alt="Partner" className="h-16 w-16" />
               </div>
             </div>
           </section>
@@ -377,7 +387,7 @@ function App() {
                   Sign Up
                 </a>
               </div>
-              <img src="../src/assets/table.png" alt="Table" />
+              <img src={Table} alt="Table" />
             </div>
             <div
               className="
@@ -414,7 +424,7 @@ function App() {
         <section aria-labelledby="contact" className="container mx-auto px-8 overflow-hidden">
       <div className="flex flex-wrap justify-center gap-12 md:gap-6 lg:gap-20">
         <div className="md:flex-1 md:max-w-sm relative">
-          <img src="../src/assets/lamp.png" alt="Lamp" className="mx-auto" />
+          <img src={Lamp} alt="Lamp" className="mx-auto" />
           <a href="#"
             className="
               py-2
@@ -446,7 +456,7 @@ function App() {
             </svg>
             <span>Download the App</span>
           </a>
-          <img src="../src/assets/app.svg" alt="app" width="240" className="hidden md:block drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs" />
+          <img src={AppPhone} alt="app" width="240" className="hidden md:block drop-shadow-xl absolute left-1/2 -translate-x-1/2 max-w-16 xl:max-w-xs" />
           <div
             className="
               absolute
