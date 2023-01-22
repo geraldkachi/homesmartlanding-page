@@ -1,8 +1,8 @@
 import Logo from "../src/assets/logo.svg"
 function App() {
 
-  const navBtn = document.querySelector('#menu')
-  const menuBar = document.querySelector('[role="menubar"]')
+  const navBtn: any = document.querySelector('#menu')
+  const menuBar: any = document.querySelector('[role="menubar"]')
 
   navBtn?.addEventListener('click', () => {
     const isExpaned: any = JSON.parse(navBtn.getAttribute('aria-expanded'));
