@@ -5,7 +5,7 @@ function App() {
   const menuBar: any = document.querySelector('[role="menubar"]')
 
   navBtn?.addEventListener('click', () => {
-    const isExpaned: any = JSON.parse(navBtn.getAttribute('aria-expanded'));
+    const isExpaned = JSON.parse(navBtn.getAttribute('aria-expanded'));
     navBtn.setAttribute('aria-expanded', !isExpaned);
     menuBar?.classList?.toggle('hidden')
     menuBar?.classList?.toggle('flex')
