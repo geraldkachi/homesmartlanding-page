@@ -499,7 +499,7 @@ function App() {
         "
         placeholder="Your Name"
 />
-        <label for="name"
+        <label
         className="
           text-neutral-500
           text-sm
@@ -540,7 +540,7 @@ function App() {
             placeholder-transparent
           "
         placeholder="Your Email" />
-        <label for="email"
+        <label
           className="
           text-neutral-500
           text-sm
@@ -563,7 +563,7 @@ function App() {
         </label>
       </div>
       <div className="relative">
-        <textarea name="content" id="content" cols="20" rows="5"
+                <textarea name="content" id="content" cols={20} rows={5}
         className="
           peer
           form-textarea
