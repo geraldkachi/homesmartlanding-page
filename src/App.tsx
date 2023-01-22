@@ -582,7 +582,7 @@ function App() {
           placeholder-transparent
         "
         placeholder="How can we help?"></textarea>
-        <label for="content"
+        <label
           className="
             text-neutral-500
             text-sm
